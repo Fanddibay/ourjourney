@@ -27,7 +27,6 @@ import cantik1 from "./images/cantik.jpeg";
 import cantik2 from "./images/cantik-2.jpeg";
 import fotobareng from "./images/fotobareng.jpeg";
 
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -82,7 +81,7 @@ function App() {
             </div>
             <div className="top-[30%] left-[5%] absolute">
               <div className="items-center">
-                <h1 className="font-bold text-[48px] tracking-widest">
+                <h1 className="font-bold text-5xl tracking-widest">
                   Together we can win <br></br> in everything{" "}
                   <span className="bg-[#656574] rounded-lg pr-4 pl-2">moment...</span>
                 </h1>
@@ -92,7 +91,7 @@ function App() {
         </nav>
         {/* hero */}
       </header>
-      <main className="mt-[6rem] md:hidden block">
+      <main className="mt-24 md:hidden block">
         {/* tentang kita */}
         <div className="">
           <h1 className="text-3xl text-center font-bold mb-12">
@@ -112,27 +111,22 @@ function App() {
                   <SwiperSlide className="shadow-slate-800 ">
                     <img src={favorite} className="shadow-lg rounded-xl mx-auto bg-center"></img>
                     <h5 className="text-center text-2xl font-bold mt-4">{user.judul1}</h5>
-                    <p className="mb-12 text-center mx-12 mt-4">{user.deskripsi1}</p>
                   </SwiperSlide>
                   <SwiperSlide>
                     <img src={favorite2} className="shadow-lg rounded-xl mx-auto bg-center"></img>
                     <h5 className="text-center text-2xl font-bold mt-4">{user.judul2}</h5>
-                    <p className="mb-12 text-center mx-12 mt-4">{user.deskripsi1}</p>
                   </SwiperSlide>
                   <SwiperSlide>
                     <img src={favorite3} className="shadow-lg rounded-xl mx-auto bg-center"></img>
                     <h5 className="text-center text-2xl font-bold mt-4">{user.judul3}</h5>
-                    <p className="mb-12 text-center mx-12 mt-4">{user.deskripsi1}</p>
                   </SwiperSlide>
                   <SwiperSlide>
                     <img src={favorite4} className="shadow-lg rounded-xl mx-auto bg-center"></img>
                     <h5 className="text-center text-2xl font-bold mt-4">{user.judul4}</h5>
-                    <p className="mb-12 text-center mx-12 mt-4">{user.deskripsi1}</p>
                   </SwiperSlide>
                   <SwiperSlide>
                     <img src={favorite5} className="shadow-lg rounded-xl mx-auto bg-center"></img>
                     <h5 className="text-center text-2xl font-bold mt-4">{user.judul5}</h5>
-                    <p className="mb-12 text-center mx-12 mt-4">{user.deskripsi1}</p>
                   </SwiperSlide>
                 </Swiper>
               </>
@@ -157,10 +151,10 @@ function App() {
                       Inget kan aku? jelas emangnya kamu pelupa huehe.
                     </p>
                   </div>
-                  <img src={wisuda1} className="w-1/2 ml-12 mt-12 mb-12 "></img>
+                  <img src={wisuda1} className="w-1/2 bg-cover ml-12 mt-12 mb-12 "></img>
                 </div>
                 <div className="flex">
-                  <img src={wisuda2} className="w-1/2 mr-8 mt-12"></img>
+                  <img src={wisuda2} className="w-1/2 bg-cover mr-8 mt-12"></img>
 
                   <div className="w-1/2 mt-28">
                     <h1 className="text-3xl ">Wisuda I</h1>
@@ -316,13 +310,13 @@ function App() {
                 className="mySwiper bubble_2"
               >
                 <SwiperSlide>
-                  <img src={rita1} className="w-[1000px] h-[640px] rounded-xl mx-auto mb-16 shadow-lg"></img>
+                  <img src={rita1} className=" rounded-xl mx-auto mb-16 shadow-lg"></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={rita2} className="h-[640px] rounded-xl mx-auto mb-16 shadow-lg"></img>
+                  <img src={rita2} className=" rounded-xl mx-auto mb-16 shadow-lg"></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={rita3} className="h-[640px] rounded-xl mx-auto mb-16 shadow-lg"></img>
+                  <img src={rita3} className=" rounded-xl mx-auto mb-16 shadow-lg"></img>
                 </SwiperSlide>
               </Swiper>
             </>
@@ -334,8 +328,8 @@ function App() {
             <div className="bg-[#a4c2a6] rounded-tl-[50%] rounded-br-[50%] px-6 py-16">
               <div className="text-white">
                 <div className="flex">
-                  <img src={cantik1} className="w-1/2 mr-12  "></img>
-                  <div className="w-1/2d mt-44">
+                  <img src={cantik1} className="w-1/2  "></img>
+                  <div className="w-1/2 mt-44">
                     <h1 className="text-3xl ">Cantiknya aku, keknya ini pas lebaran?</h1>
                     <figure className="text-lg tracking-widest leading-5">Punyakuuu :))</figure>
                     <p className="text-light  text-justify mt-12">
@@ -356,7 +350,7 @@ function App() {
                       walau cuma beli 2 wkwk, sayangnya gabisa lama-lama soalnya mulai ujann..
                     </p>
                   </div>
-                  <img src={cantik2} className="w-1/2 ml-8 mt-12"></img>
+                  <img src={cantik2} className="w-1/2 mt-12"></img>
                 </div>
               </div>
             </div>
@@ -382,13 +376,13 @@ function App() {
                 className="mySwiper bubble_3"
               >
                 <SwiperSlide>
-                  <img src={aib3} className="w-[1000px] h-[640px] rounded-xl mx-auto mb-16 shadow-lg"></img>
+                  <img src={aib3} className=" rounded-xl mx-auto mb-16 shadow-lg"></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={aib2} className="h-[640px] rounded-xl mx-auto mb-16 shadow-lg"></img>
+                  <img src={aib2} className=" rounded-xl mx-auto mb-16 shadow-lg"></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={aib1} className="h-[640px] rounded-xl mx-auto mb-16 shadow-lg"></img>
+                  <img src={aib1} className=" rounded-xl mx-auto mb-16 shadow-lg"></img>
                 </SwiperSlide>
                 <SwiperSlide>
                   <img src={fotobareng} className="h-[640px] rounded-xl mx-auto mb-16 shadow-lg"></img>
