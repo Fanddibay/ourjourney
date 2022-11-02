@@ -72,7 +72,7 @@ function App() {
               <img src={logo} className="mt-2 "></img>
             </div>
             {/* right content header */}
-            <img src={jumbotron} className="w-[100vw] rounded-br-[50%]"></img>
+            <img src={jumbotron} className="w-[140vw] rounded-br-[50%]"></img>
             <div className="float-right flex mt-1 absolute top-5 right-5">
               <a
                 href="https://drive.google.com/drive/folders/1e5nOOH8xMDIE8GnJBNSTyJC504dG--pv?usp=sharing"
@@ -88,7 +88,7 @@ function App() {
                 ></FontAwesomeIcon>
               </button>
             </div>
-            <div className="top-[13%] left-[5%] absolute">
+            <div className="top-[16%] left-[5%] absolute">
               <div className="items-center mt-10">
                 <h1 className="font-bold text-[28px] tracking-widest">
                   Together we can win <br></br> in everything <br></br>
