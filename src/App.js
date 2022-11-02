@@ -88,7 +88,7 @@ function App() {
                 ></FontAwesomeIcon>
               </button>
             </div>
-            <div className="top-[18%] left-[5%] absolute">
+            <div className="top-[10%] left-[5%] absolute">
               <div className="items-center mt-10">
                 <h1 className="font-bold text-[28px] tracking-widest">
                   Together we can win <br></br> in everything <br></br>
@@ -153,14 +153,14 @@ function App() {
             <div className="bg-[#a4c2a6] rounded-tr-[50%] rounded-bl-[50%] px-6 py-16">
               <div className="text-white">
                 <div className="flex">
-                  <div className="w-1/2 mt-36">
+                  <div className="w-1/2 mt-40">
                     {" "}
                     <h1 className="text-4xl mt-12 ">
                       Persiapan <br></br> sebelum Wisuda
                     </h1>
                     <figure className="text-lg tracking-widest leading-5">12 September 2022</figure>
                   </div>
-                  <img src={wisuda1} className="w-1/2 h-[100%] w-[45%] ml-12 mt-36 mb-12 bg-center"></img>
+                  <img src={wisuda1} className="w-1/2 h-[100%] w-[48%] ml-12 mt-36 mb-12 bg-center"></img>
                 </div>
                 <p className="text-light  text-gray-600 text-center text-sm border-b-4 pb-8">
                   Ini foto persiapan untuk wisuda.. Fotonya di Te Aming x Auntie bersama Joni dan Dhea, yaa walaupun ada
@@ -169,7 +169,7 @@ function App() {
                 </p>
                 <div className="flex">
                   <img src={wisuda2} className="w-1/2 h-[100%] mr-8 mt-12 bg-center"></img>
-                  <div className="w-1/2 mt-28">
+                  <div className="w-1/2 mt-36">
                     <h1 className="text-4xl ">Wisuda I</h1>
                     <figure className="text-lg tracking-widest leading-5">12 September 2022</figure>
                   </div>
@@ -365,7 +365,7 @@ function App() {
                       walau cuma beli 2 wkwk, sayangnya gabisa lama-lama soalnya mulai ujann..
                     </p>
                   </div>
-                  <img src={cantik2} className="w-1/2 ml-8 w-[40%] h-[100%] mt-12 shadow-lg rounded-xl"></img>
+                  <img src={cantik2} className="w-1/2 ml-8 w-[50%] h-[100%] mt-12 shadow-lg rounded-xl"></img>
                 </div>
               </div>
             </div>
