@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .buttonPrimary {
+    @apply bg-[#656574] rounded-[15px] text-white font-[700] px-10 py-4;
+  }
+}
