@@ -88,7 +88,7 @@ function App() {
                 ></FontAwesomeIcon>
               </button>
             </div>
-            <div className="top-[10%] left-[5%] absolute">
+            <div className="top-[13%] left-[5%] absolute">
               <div className="items-center mt-10">
                 <h1 className="font-bold text-[28px] tracking-widest">
                   Together we can win <br></br> in everything <br></br>
@@ -160,7 +160,7 @@ function App() {
                     </h1>
                     <figure className="text-lg tracking-widest leading-5">12 September 2022</figure>
                   </div>
-                  <img src={wisuda1} className="w-1/2 h-[100%] w-[48%] ml-12 mt-36 mb-12 bg-center"></img>
+                  <img src={wisuda1} className="w-1/2 h-[100%] w-[46%] ml-12 mt-36 mb-12 bg-center"></img>
                 </div>
                 <p className="text-light  text-gray-600 text-center text-sm border-b-4 pb-8">
                   Ini foto persiapan untuk wisuda.. Fotonya di Te Aming x Auntie bersama Joni dan Dhea, yaa walaupun ada
