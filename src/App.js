@@ -88,7 +88,7 @@ function App() {
                 ></FontAwesomeIcon>
               </button>
             </div>
-            <div className="top-[30%] left-[5%] absolute">
+            <div className="top-[18%] left-[5%] absolute">
               <div className="items-center mt-10">
                 <h1 className="font-bold text-[28px] tracking-widest">
                   Together we can win <br></br> in everything <br></br>
@@ -160,7 +160,7 @@ function App() {
                     </h1>
                     <figure className="text-lg tracking-widest leading-5">12 September 2022</figure>
                   </div>
-                  <img src={wisuda1} className="w-1/2 h-[100%] ml-12 mt-36 mb-12 bg-center"></img>
+                  <img src={wisuda1} className="w-1/2 h-[100%] w-[45%] ml-12 mt-36 mb-12 bg-center"></img>
                 </div>
                 <p className="text-light  text-gray-600 text-center text-sm border-b-4 pb-8">
                   Ini foto persiapan untuk wisuda.. Fotonya di Te Aming x Auntie bersama Joni dan Dhea, yaa walaupun ada
@@ -349,8 +349,9 @@ function App() {
                 </div>
                 <p className="text-light  text-justify mt-12 text-light text-[14px]">
                   Cantiknyaa aku, duhhh makin - makin..., Moga makin jadi yang terbaik yaaa ay, baik dunia maupun
-                  akhirat pokoknya love u sekebonnn..{" "}
-                  <span className="font-bold">fun fact aku paling suka foto yang ini lo..</span>
+                  akhirat pokoknya love u sekebonnn.. <br></br>Ett salah,, yang bener ini pas kita mau ke jensoed kan
+                  abis tu beli ice cream aice.. aku baru inget wkwk
+                  <span className="font-bold"> fun fact aku paling suka foto yang ini lo..</span>
                 </p>
                 <div className="flex">
                   <div className="w-1/2 mt-14">
@@ -410,7 +411,7 @@ function App() {
             <h5 className="text-center text-xl  text-gray-600 text-white font-bold mb-12">Social Media</h5>
             <a
               href="https://instagram.com/heni.fajj?igshid=YmMyMTA2M2Y="
-              className=" text-lg  text-gray-600 font-semibold text-white underline"
+              className=" text-[14px]  text-gray-600 font-semibold text-white underline"
               target={"_blank"}
             >
               @Heni Fajriyah
@@ -418,7 +419,7 @@ function App() {
             <a
               href="https://www.instagram.com/fanddibay/"
               target={"_blank"}
-              className="text-end float-right text-lg  text-gray-600 font-semibold text-white underline"
+              className="text-end float-right text-[14px]  text-gray-600 font-semibold text-white underline"
             >
               @Fandi Bayu Anggoro Sakti
             </a>
